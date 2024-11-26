@@ -23,5 +23,9 @@ public class FetchHtml {
             return "";
         }
     }
+    public static void main(String[] args){
+        String html = FetchHtml.ExtarctHtml("https://www.ozon.ru/product/mysh-oklik-385m-chernyy-krasnyy-opticheskaya-1000dpi-usb-dlya-noutbuka-3but-210972580/?avtc=1&avte=4&avts=1732557196");
+        System.out.println(ProductInfoCollector.collectProductInfo(html));
+    }
 
 }
