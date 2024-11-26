@@ -24,7 +24,7 @@ public class FetchHtml {
         }
     }
     public static void main(String[] args){
-        String html = FetchHtml.ExtarctHtml("https://www.ozon.ru/product/mysh-oklik-385m-chernyy-krasnyy-opticheskaya-1000dpi-usb-dlya-noutbuka-3but-210972580/?avtc=1&avte=4&avts=1732557196");
+        String html = FetchHtml.ExtarctHtml("https://www.ozon.ru/product/stilus-dlya-telefona-planshetov-smartfona-ipad-dlya-ios-android-windows-universalnyy-chernyy-167276895/?advert=APwAd22HHm5pfsVkqe9Z0pQck33alpCPWE6sV216x0oIvlD5TNHCY4iI6BVB00tY8HKiLGpVHo00XK1P4qDWbcAfr0yn72MjLxmCDb9QByVjXoNCgRODV_u69cgbF9Ch4yy0RyP_hC2LDplpGdX-iA6-0KGtIMJjzeGxIeOShn94pJyGBMWVQ-VOKUhU5m-q5DRYvZYVGM8jnqmHrNN1BCYN6KOs1lMMoBqE7e_qqtiFQe2IiFQ&avtc=1&avte=4&avts=1732659833");
         System.out.println(ProductInfoCollector.collectProductInfo(html));
     }
 
